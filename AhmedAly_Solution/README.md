@@ -38,7 +38,6 @@ ERD
 Getting Started Locally
 Prerequisites
 Install pipenv:
-Copy code
 pip install pipenv
 Setup
 Activate the virtual environment:
@@ -59,6 +58,7 @@ Update MySQL configuration in the .env file.
 Start the Flask server:
 flask run
 
+SQL Schema
 
 
 # Creating a connection cursor
@@ -76,5 +76,4 @@ cursor.execute('''
     )
 ''')
 
-# Additional tables and constraints...
-Feel free to customize and add more details to this README as needed for your project.
+
